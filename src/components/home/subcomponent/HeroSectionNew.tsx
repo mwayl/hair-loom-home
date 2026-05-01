@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 import { images } from "@/utils/web-constants";
-import Button from "@/components/shared/Button";
+import Button from "@/components/shared/ButtonHero";
 
 export default function HeroSection() {
   return (
@@ -49,7 +49,7 @@ export default function HeroSection() {
           Send the experience now. Create it together.
         </p>
 
-        <Button
+        {/* <Button
           text="CHOOSE YOUR EXPERIENCE"
           className="font-Outfit mt-8 px-8 py-3 text-xs md:text-xl uppercase tracking-wide font-thin border-2"
           backgroundColor="bg-transparent"
@@ -58,7 +58,39 @@ export default function HeroSection() {
           hoverBgColor="hover:bg-white"
           hoverTextColor="hover:text-black"
           hoverBorderColor="hover:border-white"
-        />
+        /> */}
+
+
+
+<Button
+  text="CHOOSE YOUR EXPERIENCE"
+  className="
+    uppercase !border !font-outfit !font-light
+    tracking-[0.02em]
+
+    mt-6
+    px-6 py-2.5
+    text-[13px]
+
+    min-[390px]:px-3
+    min-[390px]:text-[14px]
+
+    sm:mt-7
+    sm:px-8 sm:py-3
+    sm:text-[16px]
+
+    md:mt-8
+    md:px-9 md:py-3.5
+    md:text-[18px]
+
+    lg:mt-9
+    lg:px-10 lg:py-4
+    lg:text-[21px]
+  "
+  backgroundColor=""
+  textColor="text-[#fff]"
+  borderColor="border-[#fff]"
+/>
       </div>
     </section>
   );
