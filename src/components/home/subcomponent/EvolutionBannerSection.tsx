@@ -5,7 +5,7 @@ import { images } from "@/utils/web-constants";
 
 export default function EvolutionBannerSection() {
   return (
-    <section className="relative w-full overflow-hidden bg-[#f7f2ee] px-4 py-12 sm:px-6 sm:py-14 md:py-16 lg:px-8">
+    <section className="relative w-full overflow-hidden bg-[#f7f2ee] px-4 py-12 sm:px-6 sm:py-14 md:py-28 lg:px-8">
       {/* Petal background */}
       <Image
         src={images.evolutionPetalBg}
@@ -18,7 +18,7 @@ export default function EvolutionBannerSection() {
 
       {/* Content */}
       <div className="relative z-10 mx-auto flex min-h-[150px] max-w-[1100px] flex-col items-center justify-center text-center">
-        <h2 className="font-cormorant text-[28px] font-bold italic leading-tight text-[#8e957b] sm:text-[36px] md:text-[44px] lg:text-[50px]">
+        <h2 className="font-cormorant text-[28px] font-bold italic leading-tight text-[#8e957b] sm:text-[38px] md:text-[49px] lg:text-[55px]">
           This is the evolution of the photo album.
         </h2>
 

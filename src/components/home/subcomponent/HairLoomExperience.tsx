@@ -24,7 +24,7 @@ export default function ExperienceSections() {
     <section className="w-full overflow-hidden bg-[#F8F5F2]">
       {/* FIRST SECTION */}
 
-<section className="relative z-10 h-[clamp(220px,42vw,600px)] overflow-hidden">
+<section className="relative z-100 h-[clamp(220px,42vw,600px)] overflow-hidden">
   <Image
     src={images.ExperienceHeroImage}
     alt="Heirloom album"
@@ -117,8 +117,8 @@ export default function ExperienceSections() {
           width={285}
           height={850}
           className="
-            pointer-events-none absolute z-0 select-none
-            opacity-45 contrast-125 brightness-95
+            pointer-events-none absolute z-999 select-none
+            opacity-100 contrast-125 brightness-95
 
             left-[-22px] top-[10px] w-[250px]
             sm:left-[-60px] sm:top-[30px] sm:w-[260px]
@@ -136,7 +136,7 @@ export default function ExperienceSections() {
           height={650}
           className="
             pointer-events-none absolute z-0 select-none
-            opacity-45 contrast-125 brightness-95
+            opacity-100 contrast-125 brightness-95
 
             right-[-28px] top-[15px] w-[250px]
             sm:right-[-70px] sm:top-[-20px] sm:w-[260px]
@@ -184,11 +184,11 @@ export default function ExperienceSections() {
                 <p
                   className="
                     mt-5 font-cormorant font-semibold italic text-[#161616]
-                    text-[21px] leading-[32px]
-                    sm:text-[22px] sm:leading-[28px]
-                    md:text-[27px] md:leading-[32px]
-                    lg:text-[30px] lg:leading-[37px]
-                    xl:text-[35px] xl:leading-[40px]
+                    text-[21px] leading-[35px]
+                    sm:text-[22px] sm:leading-[35px]
+                    md:text-[27px] md:leading-[38px]
+                    lg:text-[30px] lg:leading-[44px]
+                    xl:text-[35px] xl:leading-[49px]
                   "
                 >
                   {step.text}
@@ -231,7 +231,7 @@ export default function ExperienceSections() {
               DESIGNED TO BE FELT NOW — AND HELD ONTO FOREVER.
             </h2>
 
-            <Button
+            {/* <Button
               text="GIVE THE HEIRLOOM EXPERIENCE"
               className="
                 mt-5 uppercase !font-light !border-2
@@ -246,7 +246,72 @@ export default function ExperienceSections() {
               hoverBgColor="hover:bg-[#161616]"
               hoverTextColor="hover:text-white"
               hoverBorderColor="hover:border-[#161616]"
-            />
+            /> */
+            
+            
+//             <Button
+//   text="GIVE THE HEIRLOOM EXPERIENCE"
+//   className="
+//     mt-5 uppercase !font-light !border-2
+//     text-[11px]
+//     sm:text-[14px]
+//     md:text-[17px]
+//     lg:mt-10 lg:text-[20px]
+
+//     relative overflow-hidden
+//     transition-colors duration-300 ease-out
+//   "
+//   backgroundColor="bg-transparent"
+//   textColor="text-[#161616]"
+//   borderColor="border-[#161616]"
+//   hoverBgColor="hover:bg-[#161616]"
+//   hoverTextColor="hover:text-white"
+//   hoverBorderColor="hover:border-[#161616]"
+// />
+
+
+
+
+
+
+
+
+
+
+
+<Button
+  text="GIVE THE HEIRLOOM EXPERIENCE"
+  className="
+    uppercase !border !font-outfit !font-light
+    tracking-[0.02em]
+
+    mt-6
+    px-6 py-2.5
+    text-[13px]
+
+    min-[390px]:px-3
+    min-[390px]:text-[14px]
+
+    sm:mt-7
+    sm:px-8 sm:py-3
+    sm:text-[16px]
+
+    md:mt-8
+    md:px-9 md:py-3.5
+    md:text-[18px]
+
+    lg:mt-9
+    lg:px-10 lg:py-4
+    lg:text-[21px]
+  "
+  backgroundColor="bg-transparent"
+  textColor="text-[#161616]"
+  borderColor="border-[#161616]"
+/>
+
+
+            
+            }
           </div>
         </div>
       </section>
@@ -281,26 +346,26 @@ export default function ExperienceSections() {
               lg:max-w-[640px]
             "
           >
-            <p
-              className="
-                text-center font-cormorant font-medium italic leading-[1.08] text-white
-                [text-shadow:0_4px_4px_rgba(0,0,0,0.25)]
-                text-[22px]
-                sm:text-[32px]
-                md:text-[36px]
-                lg:text-[45px]
-              "
-            >
-              The sound of her
-              <br className="sm:hidden" />
-              laugh. The way she
-              <br className="sm:hidden" />
-              says your name.
-              <br />
-              The stories you never
-              <br className="sm:hidden" />
-              want to forget.
-            </p>
+        <p
+  className="
+    text-center font-cormorant font-medium italic leading-[1.08] text-white
+    [text-shadow:0_4px_4px_rgba(0,0,0,0.25)]
+    text-[22px]
+    sm:text-[32px]
+    md:text-[36px]
+    lg:text-[45px]
+  "
+>
+  The sound of her{" "}
+  <br className="sm:hidden" />
+  laugh. The way she{" "}
+  <br className="sm:hidden" />
+  says your name.
+  <br />
+  The stories you never{" "}
+  <br className="sm:hidden" />
+  want to forget.
+</p>
           </div>
         </div>
       </section>

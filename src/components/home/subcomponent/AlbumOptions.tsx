@@ -162,23 +162,37 @@ export default function AlbumExperienceSection() {
                 your story.
               </p>
 
+
+
               <Button
-                text="VIEW OPTIONS"
-                className="
-                  mt-8 uppercase !border-2 !font-medium
-                  text-[15px]
-                  sm:text-[17px]
-                  md:text-[19px]
-                  min-[900px]:text-[20px]
-                  xl:mt-9 xl:text-[22px]
-                "
-                backgroundColor="bg-transparent"
-                textColor="text-[#161616]"
-                borderColor="border-[#161616]"
-                hoverBgColor="hover:bg-[#161616]"
-                hoverTextColor="hover:text-white"
-                hoverBorderColor="hover:border-[#161616]"
-              />
+  text="VIEW OPTIONS"
+  className="
+    uppercase !border-2 !font-outfit !font-regular
+    tracking-[0.02em]
+
+    mt-6
+    px-6 py-2.5
+    text-[13px]
+
+    min-[390px]:px-3
+    min-[390px]:text-[14px]
+
+    sm:mt-7
+    sm:px-8 sm:py-3
+    sm:text-[16px]
+
+    md:mt-8
+    md:px-9 md:py-3.5
+    md:text-[18px]
+
+    lg:mt-9
+    lg:px-10 lg:py-4
+    lg:text-[21px]
+  "
+  backgroundColor="bg-transparent"
+  textColor="text-[#161616]"
+  borderColor="border-[#161616]"
+/>
             </div>
           </div>
         </div>
