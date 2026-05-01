@@ -18,7 +18,7 @@ export default function EvolutionBannerSection() {
 
       {/* Content */}
       <div className="relative z-10 mx-auto flex min-h-[150px] max-w-[1100px] flex-col items-center justify-center text-center">
-        <h2 className="font-cormorant text-[28px] font-bold italic leading-tight text-[#8e957b] sm:text-[38px] md:text-[49px] lg:text-[55px]">
+        <h2 className="font-cormorant text-[28px] font-bold italic leading-tight text-[#8A8E75] sm:text-[38px] md:text-[49px] lg:text-[55px]">
           This is the evolution of the photo album.
         </h2>
 

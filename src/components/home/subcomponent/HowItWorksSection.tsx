@@ -10,7 +10,7 @@ export default function HowItWorksSection() {
         {/* Left content */}
         <div className="flex items-center justify-center px-6 py-14 text-center sm:px-10 md:py-20 lg:py-24">
           <div className="flex min-h-[240px] max-w-[520px] flex-col items-center justify-center lg:min-h-[300px]">
-            <h2 className="font-cormorant text-[34px] font-semibold leading-tight text-[#8A8E75] sm:text-[42px] md:text-[52px] lg:text-[58px]">
+            <h2 className="font-cormorant text-[34px] font-bold leading-tight text-[#8A8E75] sm:text-[42px] md:text-[52px] lg:text-[58px]">
               See how it works
             </h2>
 

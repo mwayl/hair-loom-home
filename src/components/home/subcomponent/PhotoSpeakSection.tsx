@@ -14,11 +14,11 @@ export default function PhotoSpeakSection() {
   return (
 <section className="w-full bg-[#f7f2ee] px-4 py-10 sm:px-6 sm:py-12 md:py-16 lg:px-8 xl:py-20 overflow-x-hidden overflow-y-visible">     
   <div className="mx-auto w-full max-w-[1400px] text-center">
-        <h2 className="font-cormorant text-[32px] font-semibold italic leading-tight text-[#8e957b] sm:text-[42px] md:text-[52px] lg:text-[60px] xl:text-[65px]">
+        <h2 className="font-cormorant text-[32px] font-semibold italic leading-tight text-[#8A8E75] sm:text-[42px] md:text-[52px] lg:text-[60px] xl:text-[65px]">
           What if a photo could speak?
         </h2>
 
-        <p className="mx-auto mt-2 max-w-[620px] text-[13px] leading-snug text-black sm:mt-3 sm:text-base md:text-lg lg:text-xl">
+        <p className="mx-auto mt-2 max-w-[620px] text-[#292728] text-[13px] leading-snug text-black sm:mt-3 sm:text-base md:text-lg lg:text-xl">
           A modern heirloom that plays your videos and voices —
           <br className="hidden sm:block" />
           revealed with a simple scan.
@@ -77,11 +77,11 @@ export default function PhotoSpeakSection() {
                   lg:max-w-none
                 "
               >
-                <p className="mb-3 text-[9px] font-bold uppercase tracking-wide underline underline-offset-2 sm:text-[10px] md:text-xs xl:mb-4 xl:text-sm">
+                <p className="mb-3 text-[9px] font-outfit font-medium uppercase tracking-wide underline underline-offset-2 sm:text-[10px] md:text-xs xl:mb-4 xl:text-sm">
                   {step.label}
                 </p>
 
-                <p className="whitespace-pre-line font-cormorant text-[22px] italic leading-[1.05] sm:text-[24px] md:text-[27px] lg:text-[26px] xl:text-[30px] 2xl:text-[32px]">
+                <p className="whitespace-pre-line font-medium font-cormorant text-[22px] italic leading-[1.05] sm:text-[24px] md:text-[27px] lg:text-[26px] xl:text-[30px] 2xl:text-[32px]">
                   {step.text}
                 </p>
               </div>
