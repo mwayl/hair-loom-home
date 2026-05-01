@@ -74,7 +74,7 @@ export default function AlbumExperienceSection() {
             <div>
               <h2
                 className="
-                  font-outfit font-medium uppercase leading-[1.16] text-[#161616]
+                  font-outfit font-medium uppercase leading-[1.3] text-[#161616]
                   text-[22px]
                   sm:text-[24px]
                   md:text-[26px]
@@ -111,9 +111,9 @@ export default function AlbumExperienceSection() {
                 "
               >
                 An afternoon flipping through photos. Laughing at the
-                <br className="hidden sm:block" />
+                {/* <br className="hidden sm:block" /> */}
                 ones you forgot. Hearing voices you haven’t heard in years.
-                <br className="hidden sm:block" />
+                {/* <br className="hidden sm:block" /> */}
                 This is where the gift begins.
               </p>
             </div>
@@ -134,7 +134,7 @@ export default function AlbumExperienceSection() {
             <div>
               <h3
                 className="
-                  font-outfit font-medium uppercase leading-[1.12] text-[#161616]
+                  font-outfit font-medium uppercase leading-[1.3] text-[#161616]
                   text-[22px]
                   sm:text-[24px]
                   md:text-[26px]

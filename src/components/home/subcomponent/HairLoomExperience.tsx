@@ -356,15 +356,8 @@ export default function ExperienceSections() {
     lg:text-[45px]
   "
 >
-  The sound of her{" "}
-  <br className="sm:hidden" />
-  laugh. The way she{" "}
-  <br className="sm:hidden" />
-  says your name.
-  <br />
-  The stories you never{" "}
-  <br className="sm:hidden" />
-  want to forget.
+  The sound of her laugh. The way she says your name. The stories you never want to forget.
+
 </p>
           </div>
         </div>

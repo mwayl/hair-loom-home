@@ -84,7 +84,7 @@ export default function Button({
           absolute inset-0 z-0 bg-transparent
           transition-colors duration-500
           ease-[cubic-bezier(0.22,1,0.36,1)]
-          group-hover:bg-white/20
+          group-hover:bg-white
         "
       />
 
